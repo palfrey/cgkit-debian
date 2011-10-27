@@ -1,0 +1,16 @@
+Source: cgkit
+Section: python
+Priority: extra
+Maintainer: Tom Parker <palfrey@tevp.net>
+Build-Depends: debhelper (>= 8.0.0), scons, libboost1.46-dev, lib3ds-dev, libboost-python-dev
+Standards-Version: 3.9.2
+Homepage: http://cgkit.sourceforge.net/
+
+Package: cgkit
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}, python-protocols
+Description: Python Computer Graphics Kit
+ The Python Computer Graphics Kit is an Open Source software package containing
+ a collection of Python modules, plugins and utilities that are meant to be 
+ useful for any domain where you have to deal with 3D data of any kind, be it
+ for visualization, creating photorealistic images, Virtual Reality or even games.
