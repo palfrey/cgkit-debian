@@ -2,7 +2,7 @@ Source: cgkit
 Section: python
 Priority: extra
 Maintainer: Tom Parker <palfrey@tevp.net>
-Build-Depends: debhelper (>= 8.0.0), scons, libboost1.46-dev, lib3ds-dev, libboost-python-dev
+Build-Depends: debhelper (>= 8.0.0), scons, libboost1.46-dev, lib3ds-dev, libboost-python-dev, libglut3-dev, python-all-dev
 Standards-Version: 3.9.2
 Homepage: http://cgkit.sourceforge.net/
 
