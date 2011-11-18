@@ -19,6 +19,10 @@ export DH_OPTIONS
 %:
 	dh $@ 
 
+override_dh_auto_build:
+	(cd supportlib && scons)
+	dh_auto_build
+
 override_dh_install:
 	prename 's/([^\/]+)\.py$$/cgkit-$$1/' debian/tmp/usr/bin/*.py
 	dh_install
