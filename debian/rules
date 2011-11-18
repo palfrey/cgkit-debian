@@ -24,6 +24,6 @@ override_dh_auto_build:
 	dh_auto_build
 
 override_dh_install:
-	prename 's/([^\/]+)\.py$$/cgkit-$$1/' debian/tmp/usr/bin/*.py
+	prename 's/([^\/]+)\.py$$/cgkit-$$1/' debian/cgkit/usr/bin/*.py
 	dh_install
 
