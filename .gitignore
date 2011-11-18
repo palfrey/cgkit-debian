@@ -1,4 +1,4 @@
 config.log
-build/
+python-build/
 cgkit/cgkitinfo.py
 .scon*
